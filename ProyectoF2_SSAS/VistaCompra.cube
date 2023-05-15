@@ -1,0 +1,531 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="809ecfcd-18ec-4601-8ed5-b6bfbc0ea811" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>VistaCompra</ID>
+  <Name>VistaCompra</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="25" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1743" scrolltop="-172" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="23204" y="16616" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Region" left="20" top="6183" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Region" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Sucursal" left="5525" top="0" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="3149" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004d0c0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Sucursal" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Compra" left="5420" top="4702" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="3360" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000200d0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Compra" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Producto" left="8380" top="11944" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="3201" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000810c0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Producto" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Departamento" left="11180" top="6183" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="3201" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000810c000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Departamento" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Proveedor" left="2620" top="11944" logicalid="17" controlid="6" masterid="0" hint1="0" hint2="0" width="3360" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000200d0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Proveedor" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="6723" logicalid="18" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Compra__idRegion__36B12243]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="13" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3020" y="7122" />
+              <point x="4220" y="7122" />
+              <point x="4220" y="7123" />
+              <point x="5420" y="7123" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6700" top="1803" logicalid="19" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Compra__codigoSu__35BCFE0A]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7099" y="2302" />
+              <point x="7099" y="3502" />
+              <point x="7100" y="3502" />
+              <point x="7100" y="4702" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8480" top="6723" logicalid="20" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Compra__idDepart__37A5467C]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="12" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11180" y="7122" />
+              <point x="9980" y="7122" />
+              <point x="9980" y="7123" />
+              <point x="8780" y="7123" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7350" top="9244" logicalid="21" controlid="10" masterid="0" hint1="0" hint2="0" width="3030" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Compra__codigoPr__34C8D9D1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9980" y="11944" />
+              <point x="9980" y="10744" />
+              <point x="7650" y="10744" />
+              <point x="7650" y="9544" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3901" top="9244" logicalid="22" controlid="11" masterid="0" hint1="0" hint2="0" width="2399" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Compra__codigoPr__33D4B598]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="3" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4300" y="11944" />
+              <point x="4300" y="10744" />
+              <point x="6000" y="10744" />
+              <point x="6000" y="9544" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Hora" left="12543" top="9828" logicalid="24" controlid="13" masterid="0" hint1="0" hint2="0" width="4763" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009b12000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Hora" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1743</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-172</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="664ec5f3-0ff4-4ca2-bd5a-5beca5a08d29">
+      <ID>CompraDIMDepartamento</ID>
+      <Name>CompraDIMDepartamento</Name>
+      <DimensionID>CompraDIMDepartamento</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e345314a-ec7b-4691-abcd-02af44ead803">
+          <AttributeID>Id Departamento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6e07d3ca-db14-4dff-a658-0f2dc8a0595a">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="232451cd-6c5c-4853-9d67-a45faa9f7d32">
+      <ID>CompraDIMProducto</ID>
+      <Name>CompraDIMProducto</Name>
+      <DimensionID>CompraDIMProducto</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2ed8609e-1ca4-4d70-8b0b-6e99f056eead">
+          <AttributeID>Codigo Producto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="38340923-87e2-4150-be56-ea3b0364e525">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1685d878-d940-4fec-84da-ebcb19c6df9d">
+          <AttributeID>Marca</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d2526b30-eccf-438e-82e5-6fdc06366dc5">
+          <AttributeID>Categoria</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8a097c96-5eb9-4821-9784-feffa4d284c5">
+      <ID>CompraDIMSucursal</ID>
+      <Name>CompraDIMSucursal</Name>
+      <DimensionID>CompraDIMSucursal</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b8c947d2-3ac1-45c5-bc1d-c9c6b76689a9">
+          <AttributeID>Codigo Sucursal</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c94afbb3-d31d-40d6-a3ec-1bfa3c8903ac">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f4636490-1330-4309-8326-d49629fa8c89">
+          <AttributeID>Direccion</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="1d0e2ed8-dc76-45c1-841b-051c55c1b427">
+      <ID>CompraDIMRegion</ID>
+      <Name>CompraDIMRegion</Name>
+      <DimensionID>CompraDIMRegion</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3e1a5168-8266-47cc-b8a7-95c72e9834e5">
+          <AttributeID>Id Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="40a05bc8-02fb-4ef7-a08d-5dc61e4baad4">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7d1b100f-380f-4a69-9954-2876d72a6c32">
+      <ID>CompraDIMProveedor</ID>
+      <Name>CompraDIMProveedor</Name>
+      <DimensionID>CompraDIMProveedor</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5a663c11-b3e0-4194-81b3-42fb6ce344a1">
+          <AttributeID>Codigo Proveedor</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="26995ef6-9291-4799-b475-5c8ce0b3e9a6">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1f3cd99f-edda-46ba-8809-b3cbe1cb029d">
+          <AttributeID>Direccion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fdaedb5c-e4b0-480f-ba8c-13b6e3dba1fa">
+          <AttributeID>Numero</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e0e5d11b-2ad3-45ad-b607-c725c58080f9">
+      <ID>Hora</ID>
+      <Name>Hora</Name>
+      <DimensionID>Hora</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="57de26f6-8e1c-446e-8764-1ef6d03b8d5d">
+          <AttributeID>Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f0d3736b-fefa-4c41-b36b-01a69f558b97">
+          <AttributeID>Año</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c33cdc4d-b87f-494e-8384-b1216552a773">
+          <AttributeID>Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1eda758f-be27-409c-8056-f4ba907f4928">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ac053dfe-e8a5-4745-8149-2a163c0bd922">
+          <AttributeID>Día Del Año</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8f153f73-9ae9-47c3-86e8-958df9606e26">
+          <AttributeID>Día Del Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9229248f-1ab1-47dd-99b7-f9bc5e9ca6be">
+          <AttributeID>Día Del Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="609e02b2-1049-4353-93f1-c50457688a2e">
+          <AttributeID>Mes Del Año</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8727ed43-23b7-4c65-9a3b-36b2c452043a">
+          <AttributeID>Mes Del Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="42222c3e-a3b3-47bf-8366-01af5f8a2687">
+          <AttributeID>Semestre Del Año</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="f88f768e-784a-481c-89b1-72f4ad8e0ba2">
+          <HierarchyID>Año -  Semestre -  Mes -  Fecha</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="2f33dca1-a480-4895-a84c-e138a72e5f90">
+      <ID>Compra</ID>
+      <Name>Compra</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="6796381e-a030-45ac-92fe-84bdfe1d7dcf">
+          <ID>Unidades</ID>
+          <Name>Unidades</Name>
+          <Source dwd:design-time-name="b9992653-f1dd-458d-913f-fd3408fa177f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6c96b2b9-2a10-4a28-b13b-0213a212be98">
+              <TableID>dbo_Compra</TableID>
+              <ColumnID>unidades</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4ad22344-41e9-461e-bae5-ad5d15fa277c">
+          <ID>Costo</ID>
+          <Name>Costo</Name>
+          <Source dwd:design-time-name="663bebba-abb5-4774-9d67-756dfa7e82cd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4465057b-aad0-4033-940b-20be1e942ccb">
+              <TableID>dbo_Compra</TableID>
+              <ColumnID>costo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ee6638cb-8f4e-436e-ba1b-73579bcce58a">
+          <ID>Recuento Compra</ID>
+          <Name>Recuento Compra</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="388a1624-d6be-4a42-be30-ffb0d50030c8">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="50a07b9d-a048-4e8e-819c-07a6d635522a">
+              <TableID>dbo_Compra</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="57136299-eb61-4cf6-ad50-b50f30be3710">
+          <CubeDimensionID>CompraDIMDepartamento</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="361e451f-cc48-4a4a-a873-8b64db1a7a99">
+              <AttributeID>Id Departamento</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="99bed672-fb4f-4dff-81da-14b77ccddc75">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2b0b613f-113e-4004-8774-f486d874ca0e">
+                    <TableID>dbo_Compra</TableID>
+                    <ColumnID>idDepartamento</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c0b25cbb-b59a-42e4-9d72-4ca9c7780395">
+          <CubeDimensionID>CompraDIMProducto</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8a45615d-2090-485b-a02e-b91fb3efb610">
+              <AttributeID>Codigo Producto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2f534e08-aa2e-43b0-996a-fc97fa4f9d62">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a66dc723-3a44-415c-be44-bc3b0c608b85">
+                    <TableID>dbo_Compra</TableID>
+                    <ColumnID>codigoProducto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="78efc203-c29c-4159-8d9c-31eff68208a1">
+          <CubeDimensionID>CompraDIMSucursal</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="55569ba3-80b2-4a60-916f-327d04185d97">
+              <AttributeID>Codigo Sucursal</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4a34dd87-febe-49cf-bc25-c7af8c646aab">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4278a70d-a262-4cd7-86fe-ead61e4c938a">
+                    <TableID>dbo_Compra</TableID>
+                    <ColumnID>codigoSucursal</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3ac81761-f879-4a0a-b8b8-af95fd806318">
+          <CubeDimensionID>CompraDIMRegion</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2e165650-1991-4c29-8b14-7f6d9165ed32">
+              <AttributeID>Id Region</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5f6f46cc-ae65-43cb-9d61-1bf236883b66">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2c4d43c2-26ec-4d8b-93c2-21270c4cd2f7">
+                    <TableID>dbo_Compra</TableID>
+                    <ColumnID>idRegion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ab8aa0a7-0844-4a16-bb4f-11b54f096fb8">
+          <CubeDimensionID>CompraDIMProveedor</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="03c34748-411c-4310-ada3-009e5defce09">
+              <AttributeID>Codigo Proveedor</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="79ead64e-fc29-4746-989f-d657e61d521a">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ed34291d-41c4-42c0-92ba-94ce4bd6771a">
+                    <TableID>dbo_Compra</TableID>
+                    <ColumnID>codigoProveedor</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="979d4cc9-0d25-458f-8068-92d93f75f6fc">
+          <CubeDimensionID>Hora</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ab506490-a03f-449d-afe1-b9989740160d">
+              <AttributeID>Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c330ede0-d047-43b3-ab93-2b31e67146b8">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="744d202b-f42a-4f2c-b528-2a684937a906">
+                    <TableID>dbo_Compra</TableID>
+                    <ColumnID>fecha_compra</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="d0d7f541-089c-4f04-8a51-6024843d69bc">
+    <DataSourceViewID>VistaCompra</DataSourceViewID>
+  </Source>
+</Cube>
